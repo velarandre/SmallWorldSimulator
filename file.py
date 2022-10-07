@@ -5,7 +5,7 @@ import sys
 collection = pd.read_csv(sys.argv[1])
 collection = collection.sort_values(by=['cardcode'])
 collection["cardq"] = np.where(collection["cardq"]>3, 3, collection["cardq"])
-deck = "mathmeck (1).ydk"
+deck = "mathmech (1).ydk"
 
 print(collection.iloc[1:400])
 
