@@ -5,7 +5,7 @@ import json
 import pprint
 
 # Step 1: YDK Extractor
-with open('deck2.ydk') as f:
+with open('mathmech (1).ydk') as f:
     deck = f.read().splitlines()
 
 deck.pop(0)
